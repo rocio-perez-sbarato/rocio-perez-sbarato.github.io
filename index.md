@@ -2,29 +2,33 @@
 layout: default
 ---
 
-<div style="display:flex; gap:15px; align-items:center; margin-bottom:15px;">
-  <img src="/assets/img/FCS logo color.png" alt="Logo 1" style="height:40px;">
-  <img src="/assets/img/Logo-FAMAF-color-pleno-2.jpg" alt="Logo 2" style="height:85px;">
-  <img src="/assets/img/unc1_a.jpg" alt="Logo 3" style="height:40px;">
-</div>
-
 ## Edición Agosto 2025 
 
 ## Perfiles de estudiantes y costos
 
   <div class="cards-container">
     <div class="card">
-      <h3>Vive solo y paga alquiler</h3>
-      <p class="price number">750k x mes</p>
+      <p>Vive solo y paga alquiler</p>
+      <p class="number">750k</p>
     </div>
 
     <div class="card">
-      <h3>Vive en una residencia</h3>
-      <p class="price number">500k x mes</p>
+      <p>Vive en una residencia</p>
+      <p class="number">500k</p>
     </div>
 
     <div class="card">
-      <h3>Vive con familia</h3>
-      <p class="price number">350k x mes</p>
+      <p>Vive con familia</p>
+      <p class="number">350k</p>
     </div>
   </div>
+
+## Equipo
+
+Somos estudiantes de la Facultad de Ciencias Sociales y de la Facultad de Matemática, Astronomía, Física y Computación.
+
+<div style="display:flex; gap:15px; align-items:center; margin-bottom:15px;">
+  <img src="/assets/img/FCS logo color.png" alt="Logo 1" style="height:40px;">
+  <img src="/assets/img/Logo-FAMAF-color-pleno-2.jpg" alt="Logo 2" style="height:85px;">
+  <img src="/assets/img/unc1_a.jpg" alt="Logo 3" style="height:40px;">
+</div>
