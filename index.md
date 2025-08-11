@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## Edición Agosto 2025 
+# Edición Agosto 2025 
 
-# Perfiles de estudiantes y costos
+## Perfiles de estudiantes y costos
 
   <div class="cards-container">
     <div class="card">
