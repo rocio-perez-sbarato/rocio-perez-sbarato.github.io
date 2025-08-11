@@ -240,29 +240,41 @@ hr {
 .cards-container {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* que estén en fila sin romper */
 }
 
-/** Card */
 .card {
-  flex: 1;
-  min-width: 250px;
-  background: $clr-surface-a20;
+  background-color: #2e4a7d; /* un azul intermedio */
   border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-  color: $clr-light-a0;
+  padding: 20px;
+  width: 180px;
+  height: 130px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* para separar icono, texto y número */
 }
 
-.card h3 {
-  margin-top: 0;
+/* Icono arriba, pequeño y blanco */
+.card svg, .card .icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-bottom: 10px;
 }
 
-.price {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: $clr-light-a0;
+/* Texto descriptivo */
+.card p {
+  font-size: 14px;
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+
+/* Número destacado */
+.card .number {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 @media print, screen and (max-width: 960px) {
