@@ -35,30 +35,3 @@ layout: default
     </ul>
   </div>
 </div>
-
-<style>
-.cards-container {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  flex: 1;
-  min-width: 250px;
-  background: #f9f9f9;
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.card h3 {
-  margin-top: 0;
-}
-
-.price {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-</style>
