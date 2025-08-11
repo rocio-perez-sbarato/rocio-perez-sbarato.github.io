@@ -1,6 +1,6 @@
 title: Canasta Básica Total Estudiantil
 logo: /assets/img/logo.jpg
-description: ¿Cuánto cuesta realmente estudiar en la UNC?
+description: Este proyecto busca estimar, en términos monetarios, los costos reales de estudiar en la UNC. Aunque la educación universitaria es gratuita, existen gastos ineludibles (transporte, alimentación, materiales, vivienda) que impactan directamente en el acceso y permanencia estudiantil. 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
