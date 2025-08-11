@@ -23,12 +23,17 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <!-- 🔗 Enlaces personalizados -->
+        <nav>
+          <ul style="list-style:none; padding:0;">
+            <li><a href="https://github.com/tuusuario/tu-repo-scraping">📦 Repo </a></li>
+            <li><a href="/informes-mensuales">📊 Informes mensuales</a></li>
+            <li><a href="/proyecto-investigacion">📄 Proyecto de investigación</a></li>
+          </ul>
+        </nav>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
         {% if site.show_downloads %}

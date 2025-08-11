@@ -1,123 +1,64 @@
 ---
 layout: default
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+> Unite a la lista de mails para recibir el análisis detallado del CBTE --> []()
 
 * * *
 
-### Here is an unordered list:
+# 📊 Perfiles de estudiantes y costos
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+<div class="cards-container">
+  <div class="card">
+    <h3>💼 Con alquiler</h3>
+    <p class="price">$250.000 / mes</p>
+    <ul>
+      <li>Incluye alquiler, servicios, alimentación y transporte</li>
+      <li>Perfil más costoso</li>
+    </ul>
+  </div>
 
-### And an ordered list:
+  <div class="card">
+    <h3>🏠 Vive con familia</h3>
+    <p class="price">$120.000 / mes</p>
+    <ul>
+      <li>Sin gastos de alquiler</li>
+      <li>Incluye alimentación, transporte y materiales</li>
+    </ul>
+  </div>
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+  <div class="card">
+    <h3>🚶‍♀️ De otra ciudad sin alquiler</h3>
+    <p class="price">$160.000 / mes</p>
+    <ul>
+      <li>Incluye transporte interurbano</li>
+      <li>Sin gastos de alquiler</li>
+    </ul>
+  </div>
+</div>
 
-### And a nested list:
+<style>
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
 
-### Small image
+.card h3 {
+  margin-top: 0;
+}
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+</style>
