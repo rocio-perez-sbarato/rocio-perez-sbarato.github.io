@@ -1,5 +1,34 @@
+/** Base colors */
+$clr-dark-a0:   #000000;
+$clr-light-a0:  #ffffff;
+
+/** Theme primary colors - Amarillo dorado escalonado */
+$clr-primary-a0:  #ce9927;
+$clr-primary-a10: #d5a443;
+$clr-primary-a20: #dcaf5b;
+$clr-primary-a30: #e3ba73;
+$clr-primary-a40: #e9c58a;
+$clr-primary-a50: #efd0a1;
+
+/** Theme surface colors - Azules base */
+$clr-surface-a0:  #043263;
+$clr-surface-a10: #2b4573;
+$clr-surface-a20: #465a84;
+$clr-surface-a30: #607095;
+$clr-surface-a40: #7a86a6;
+$clr-surface-a50: #939db7;
+
+/** Theme tonal surface colors - Azul grisáceo */
+$clr-surface-tonal-a0:  #2d3b60;
+$clr-surface-tonal-a10: #434e70;
+$clr-surface-tonal-a20: #596281;
+$clr-surface-tonal-a30: #6f7792;
+$clr-surface-tonal-a40: #868ca4;
+$clr-surface-tonal-a50: #9da2b5;
+
+/** Body */
 body {
-  background-color: #043263;
+  background-color: $clr-surface-a0;
   padding: 50px;
   font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -9,8 +38,9 @@ body {
   margin: 0;
 }
 
+/** Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #f0f4ff;
+  color: $clr-light-a0;
   margin: 0 0 20px;
   line-height: 1.1;
 }
@@ -19,52 +49,57 @@ h1 {
   font-size: 28px;
 }
 
+/** Paragraphs, lists, tables, pre, dl */
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
 
+/** Links */
 a {
-  color: #FFD66E;
+  color: $clr-light-a0;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover, a:focus {
-  color: #FFDA7C;
+  color: $clr-light-a0;
   font-weight: bold;
 }
 
 a small {
   font-size: 11px;
-  color: #f0f4ff;
+  color: $clr-light-a0;
   margin-top: -0.3em;
   display: block;
 }
 
 a:hover small {
-  color: #f0f4ff;
+  color: $clr-light-a0;
 }
 
+/** Wrapper */
 .wrapper {
   width: 860px;
   margin: 0 auto;
 }
 
+/** Blockquote */
 blockquote {
-  border-left: 3px solid #375a9b;
+  border-left: 3px solid $clr-surface-a20;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
-  color: #d1d9f0;
+  color: $clr-surface-tonal-a40;
 }
 
+/** Code and pre */
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color: #b3d4fc;
-  background: #1f2d3d;
+  color: $clr-primary-a40;
+  background: $clr-surface-tonal-a0;
   border-radius: 5px;
   padding: 8px 15px;
-  border: 1px solid #375a9b;
+  border: 1px solid $clr-surface-a20;
   overflow-x: auto;
 }
 
@@ -72,6 +107,7 @@ pre {
   margin: 0 0 20px;
 }
 
+/** Tables */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -81,31 +117,34 @@ table {
 th, td {
   text-align: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #375a9b;
+  border-bottom: 1px solid $clr-surface-a20;
   color: #e0e6f2;
 }
 
 th {
   font-weight: 700;
-  color: #f0f4ff;
+  color: $clr-light-a0;
 }
 
+/** Definition term */
 dt {
-  color: #f0f4ff;
+  color: $clr-light-a0;
   font-weight: 700;
 }
 
+/** Images */
 img {
   max-width: 100%;
 }
 
+/** Keyboard input */
 kbd {
-  background-color: #f8f8f8;
+  background-color: $clr-light-a0;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
+  color: $clr-dark-a0;
   display: inline-block;
   font-size: 11px;
   line-height: 10px;
@@ -113,32 +152,34 @@ kbd {
   vertical-align: middle;
 }
 
+/** Header and Footer */
 header, footer {
   width: 270px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
-  background-color: #03254c;
+  background-color: $clr-surface-tonal-a0;
   padding: 10px;
   color: #e0e6f2;
   border-radius: 8px;
 }
 
+/** Downloads list */
 ul.downloads {
   list-style: none;
   height: 40px;
   padding: 0;
-  background: #375a9b;
+  background: $clr-surface-a20;
   border-radius: 5px;
-  border: 1px solid #275080;
+  border: 1px solid $clr-surface-a10;
   width: 270px;
-  color: #f0f4ff;
+  color: $clr-light-a0;
 }
 
 .downloads li {
   width: 89px;
   float: left;
-  border-right: 1px solid #275080;
+  border-right: 1px solid $clr-surface-a10;
   height: 40px;
 }
 
@@ -153,7 +194,7 @@ ul.downloads {
 .downloads a {
   line-height: 1;
   font-size: 11px;
-  color: #f0f4ff;
+  color: $clr-light-a0;
   display: block;
   text-align: center;
   padding-top: 6px;
@@ -163,48 +204,54 @@ ul.downloads {
 }
 
 .downloads a:hover, .downloads a:focus {
-  color: #ffd66e;
+  color: $clr-light-a0;
   font-weight: bold;
-  background-color: #274575;
+  background-color: $clr-surface-tonal-a10;
 }
 
+/** Strong */
 strong {
-  color: #d0d0d0;
+  color: $clr-surface-tonal-a50;
   font-weight: 700;
 }
 
+/** Section */
 section {
   width: 500px;
   float: right;
   padding-bottom: 50px;
 }
 
+/** Small text */
 small {
   font-size: 11px;
-  color: #c8d1e5;
+  color: $clr-surface-tonal-a50;
 }
 
+/** Horizontal rule */
 hr {
   border: 0;
-  background: #375a9b;
+  background: $clr-surface-a20;
   height: 1px;
   margin: 0 0 20px;
 }
 
+/** Cards container */
 .cards-container {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
+/** Card */
 .card {
   flex: 1;
   min-width: 250px;
-  background: #1a2f55;
+  background: $clr-surface-a20;
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-  color: #f0f4ff;
+  color: $clr-light-a0;
 }
 
 .card h3 {
@@ -215,7 +262,7 @@ hr {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #ffd66e;
+  color: $clr-light-a0;
 }
 
 @media print, screen and (max-width: 960px) {
