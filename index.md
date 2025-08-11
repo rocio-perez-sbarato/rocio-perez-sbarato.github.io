@@ -4,7 +4,7 @@ layout: default
 
 ## Edición Agosto 2025 
 
-## Perfiles de estudiantes y costos
+# Perfiles de estudiantes y costos
 
   <div class="cards-container">
     <div class="card">
@@ -22,6 +22,8 @@ layout: default
       <p class="number">350k</p>
     </div>
   </div>
+
+* * *
 
 ## Equipo
 
