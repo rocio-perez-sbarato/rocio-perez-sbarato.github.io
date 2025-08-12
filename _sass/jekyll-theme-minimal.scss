@@ -155,7 +155,7 @@ ul.downloads {
   padding:0;
   background: $clr-surface-a20;
   border-radius:5px;
-  border:1px solid $clr-surface-a0;
+  border:1px solid $clr-surface-a20;
   width:270px;
 }
 
@@ -176,6 +176,7 @@ ul.downloads {
 
 .downloads li:hover {
   background-color: $clr-surface-a0;
+  border-right:1px solid $clr-surface-a20;
 }
 
 .downloads a {
