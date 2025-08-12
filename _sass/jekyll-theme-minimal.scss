@@ -68,7 +68,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: $clr-light-a0;
+  color: $clr-primary-a30;
   font-weight: bold;
 }
 
@@ -175,7 +175,7 @@ ul.downloads {
   list-style: none;
   height: 40px;
   padding: 0;
-  background: $clr-surface-a20;
+  background: $clr-surface-a30;
   border-radius: 5px;
   border: 1px solid $clr-surface-a10;
   width: 270px;
@@ -185,7 +185,7 @@ ul.downloads {
 .downloads li {
   width: 89px;
   float: left;
-  border-right: 1px solid $clr-surface-a10;
+  border-right: 1px solid $clr-light-a0;
   height: 40px;
 }
 
@@ -212,12 +212,12 @@ ul.downloads {
 .downloads a:hover, .downloads a:focus {
   color: $clr-light-a0;
   font-weight: bold;
-  background-color: $clr-surface-tonal-a10;
+  background-color: $clr-surface-a0;
 }
 
 /** Strong */
 strong {
-  color: $clr-surface-tonal-a50;
+  color: $clr-light-a0;
   font-weight: 700;
 }
 

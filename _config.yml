@@ -2,5 +2,6 @@ title: Canasta Básica Total Estudiantil
 logo: /assets/img/logo.jpg
 description: Proyecto estudiantil autogestivo para estimar los costos reales de estudiar en la UNC
 show_downloads: true
+is_project_page: true
 google_analytics:
 theme: jekyll-theme-minimal
