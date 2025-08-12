@@ -162,7 +162,7 @@ ul.downloads {
 .downloads li {
   width:89px;
   float:left;
-  border-right:1px solid $clr-surface-a20;
+  border-right:1px solid $clr-surface-a0;
   height:55px;
 }
 
@@ -232,7 +232,6 @@ hr {
 }
 
 footer {
-  width:270px;
   float:left;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
