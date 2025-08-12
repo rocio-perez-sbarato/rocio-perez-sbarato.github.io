@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### EDICIÓN AGOSTO 2025 
+### EDICIÓN JULIO 2025 
 
 ## Perfiles de estudiantes y costos
 
