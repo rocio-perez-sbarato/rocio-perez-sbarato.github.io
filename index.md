@@ -23,8 +23,6 @@ layout: default
     </div>
   </div>
 
-* * *
-
 ## Proyecto de investigación
 
 Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo medimos la canasta básica.
@@ -42,3 +40,7 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
   <img src="/assets/img/Logo_FAMAF_blanco.png" alt="Logo 2" style="height:85px;">
   <img src="/assets/img/unc3_i.png" alt="Logo 3" style="height:40px;">
 </div>
+
+<footer>
+<p><small>Publicado en GitHub Pages y creado con <a href="https://github.com/orderedlist">Jekyll minimal pages</a></small></p>
+</footer>

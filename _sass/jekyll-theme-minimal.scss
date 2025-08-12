@@ -37,7 +37,7 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   color: $clr-light-a0;
   margin:0 0 20px;
 }
@@ -52,10 +52,6 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-}
-
-h2 {
-  color: $clr-primary-a40;
 }
 
 h3, h4, h5, h6 {
@@ -157,16 +153,16 @@ ul.downloads {
   list-style:none;
   height:40px;
   padding:0;
-  background: $clr-surface-a0;
+  background: $clr-surface-a20;
   border-radius:5px;
-  border:1px solid $clr-surface-a0;
+  border:1px solid $clr-surface-a20;
   width:270px;
 }
 
 .downloads li {
   width:89px;
   float:left;
-  border-right:1px solid $clr-surface-a0;
+  border-right:1px solid $clr-surface-a20;
   height:40px;
 }
 
@@ -181,7 +177,7 @@ ul.downloads {
 .downloads a {
   line-height:1;
   font-size:11px;
-  color:$clr-surface-a0;
+  color:$clr-light-a0;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -191,6 +187,7 @@ ul.downloads {
 .downloads a:hover, .downloads a:focus {
   color: $clr-light-a0;
   font-weight:bold;
+  background-color: $clr-surface-a0;
 }
 
 .downloads ul a:active {
