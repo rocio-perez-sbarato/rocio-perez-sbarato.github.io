@@ -29,6 +29,10 @@ layout: default
 
 Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo medimos la canasta básica.
 
+## Contacto
+
+¿Querés participar o tenés alguna consulta? Mandanos un mail a **_canasta.basica@gmail.com_**.
+
 ## Equipo
 
 Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
@@ -38,7 +42,3 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
   <img src="/assets/img/Logo_FAMAF_blanco.png" alt="Logo 2" style="height:85px;">
   <img src="/assets/img/unc3_i.png" alt="Logo 3" style="height:40px;">
 </div>
-
-## Contacto
-
-¿Querés participar o tenés alguna consulta? Mandanos un mail a **_canasta.basica@gmail.com_**.
