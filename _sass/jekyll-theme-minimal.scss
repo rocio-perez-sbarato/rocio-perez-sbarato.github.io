@@ -164,7 +164,7 @@ header, footer {
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
-  background-color: $clr-surface-a10;
+  background-color: $clr-surface-a0;
   padding: 10px;
   color: #e0e6f2;
   border-radius: 8px;
@@ -185,7 +185,7 @@ ul.downloads {
 .downloads li {
   width: 89px;
   float: left;
-  border-right: 1px solid $clr-light-a0;
+  border-right: 1px solid $clr-surface-a0;
   height: 40px;
 }
 
@@ -253,7 +253,7 @@ hr {
   background-color: $clr-surface-a20; 
   border-radius: 10px;
   padding: 8px;
-  width: 130px;
+  width: 90px;
   height: 75px;
   color: $clr-light-a0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
