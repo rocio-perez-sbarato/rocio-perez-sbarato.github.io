@@ -4,21 +4,21 @@ layout: default
 
 ### EDICIÓN JULIO 2025 
 
-## Perfiles de estudiantes y costos
+## Perfiles de estudiantes y gastos mensuales estimados
 
   <div class="cards-container">
     <div class="card">
-      <p>Vive solo y paga alquiler</p>
+      <p>Estudiante que vive en un departamento alquilado</p>
       <p class="number">750k</p>
     </div>
 
     <div class="card">
-      <p>Vive en una residencia</p>
+      <p>Estudiante que vive en residencia universitaria</p>
       <p class="number">500k</p>
     </div>
 
     <div class="card">
-      <p>Vive con familia</p>
+      <p>Estudiante que vive con su grupo familiar y no es el principal aportante en los gastos del hogar</p>
       <p class="number">350k</p>
     </div>
   </div>
