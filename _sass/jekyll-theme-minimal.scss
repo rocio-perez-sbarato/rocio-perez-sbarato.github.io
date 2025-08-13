@@ -251,22 +251,19 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Icono arriba, pequeño y blanco */
 .card .icon {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   color: $clr-primary-a30;
   margin-bottom: 10px;
 }
 
-/* Texto descriptivo */
 .card p {
   font-size: 14px;
   margin: 0 0 5px;
   font-weight: 400;
 }
 
-/* Número destacado */
 .card .number {
   font-size: 24px;
   font-weight: 700;

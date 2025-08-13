@@ -38,7 +38,7 @@ Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo
 
 Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
 
-<div style="display:flex; gap:15px; align-items:center; margin-bottom:5px;">
+<div style="display:flex; gap:15px; align-items:center;">
   <img src="/assets/img/FCS logo blanco.png" alt="Logo 1" style="height:40px;">
   <img src="/assets/img/Logo_FAMAF_blanco.png" alt="Logo 2" style="height:85px;">
   <img src="/assets/img/unc3_i.png" alt="Logo 3" style="height:40px;">
