@@ -47,5 +47,5 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
 </div>
 
 <footer>
-<p><small>Publicado en GitHub Pages y creado con <a href="https://github.com/orderedlist">Jekyll minimal pages</a></small></p>
+<p><small>Esta humilde página estática fue publicada en GitHub Pages y creada con el theme <a href="https://github.com/orderedlist">Jekyll minimal pages</a></small></p>
 </footer>

@@ -270,6 +270,33 @@ footer {
   font-weight: 700;
 }
 
+hr {
+  border: 0;
+  background: $clr-light-a0; 
+  height: 1px;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .cards-container {
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .card {
+    flex: 1 1 calc(50% - 1rem); 
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
