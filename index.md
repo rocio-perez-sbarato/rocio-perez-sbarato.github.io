@@ -4,7 +4,7 @@ layout: default
 
 ### EDICIÓN JULIO 2025 
 
-## Perfiles de consumo y gastos mensuales estimados
+## Perfiles de consumo
 
   <div class="cards-container">
     <div class="card">
@@ -18,7 +18,7 @@ layout: default
     </div>
 
     <div class="card">
-      <p>Estudiante que vive con familia y no es el principal aportante</p>
+      <p>Estudiante que vive con su grupo familiar y no es el principal aportante</p>
       <p class="number">350k</p>
     </div>
   </div>
