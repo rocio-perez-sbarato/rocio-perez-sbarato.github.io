@@ -2,9 +2,9 @@
 layout: default
 ---
 
-### EDICIÓN JULIO 2025 
+### JULIO 2025 
 
-## Perfiles de consumo
+## Perfiles de consumo y gastos mensuales
 
   <div class="cards-container">
     <div class="card">
@@ -47,5 +47,5 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
 </div>
 
 <footer>
-<p><small>Esta humilde página estática fue publicada en GitHub Pages y creada con el theme <a href="https://github.com/orderedlist">Jekyll minimal pages</a></small></p>
+<p><small>Esta humilde página estática fue publicada en GitHub Pages y creada con el theme <a href="github.com/pages-themes/minimal">Jekyll minimal pages</a></small></p>
 </footer>
