@@ -242,7 +242,7 @@ footer {
   border-radius: 10px;
   padding: 8px;
   width: 180px;
-  height: 130px;
+  height: 180px;
   color: $clr-light-a0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -252,10 +252,10 @@ footer {
 }
 
 /* Icono arriba, pequeño y blanco */
-.card svg, .card .icon {
+.card .icon {
   width: 20px;
   height: 20px;
-  fill: $clr-primary-a30;
+  color: $clr-primary-a30;
   margin-bottom: 10px;
 }
 
