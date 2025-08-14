@@ -276,8 +276,9 @@ hr {
   margin: 0 0 20px;
 }
 
-@media screen and (max-width: 960px) {
-  .cards-container {
+@media print, screen and (max-width: 960px) {
+
+    .cards-container {
     flex-wrap: wrap; 
     justify-content: center;
     gap: 1rem;
@@ -287,48 +288,6 @@ hr {
     flex: 1 1 calc(50% - 1rem); 
     max-width: 300px;
   }
-}
-
-@media screen and (max-width: 480px) {
-  .card {
-    height: auto;     /* se ajusta al contenido */
-    padding: 6px;    /* un poco menos de aire */
-  }
-
-  .card .icon {
-    font-size: 24px;
-    margin-bottom: 6px;
-  }
-
-    .downloads {
-    display: flex;
-    justify-content: center; /* centrar todo */
-    width: 100%; /* ocupar ancho disponible */
-    border-radius: 5px;
-  }
-
-  .downloads li {
-    flex: 1; /* que cada botón se expanda igual */
-    border-right: 1px solid $clr-surface-a10;
-    height: 55px; /* mismo alto que escritorio */
-  }
-
-  .downloads li:last-child {
-    border-right: none;
-  }
-
-  .downloads a {
-    font-size: 11px;
-    padding-top: 6px;
-    height: 34px;
-  }
-
-  .downloads a strong {
-    font-size: 14px;
-  }
-}
-
-@media print, screen and (max-width: 960px) {
 
   div.wrapper {
     width:auto;
@@ -386,12 +345,41 @@ hr {
     padding:15px;
   }
 
-  .downloads {
-    width:99%;
+  .card {
+    height: auto;     /* se ajusta al contenido */
+    padding: 2px;    /* un poco menos de aire */
   }
 
-  .downloads li, .downloads li + li + li {
-    width:33%;
+  .card .icon {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+
+  .downloads {
+    display: flex;
+    justify-content: center; /* centrar todo */
+    width: 100%; /* ocupar ancho disponible */
+    border-radius: 5px;
+  }
+
+  .downloads li {
+    flex: 1; /* que cada botón se expanda igual */
+    border-right: 1px solid $clr-surface-a10;
+    height: 55px; /* mismo alto que escritorio */
+  }
+
+  .downloads li:last-child {
+    border-right: none;
+  }
+
+  .downloads a {
+    font-size: 11px;
+    padding-top: 6px;
+    height: 34px;
+  }
+
+  .downloads a strong {
+    font-size: 14px;
   }
 }
 
