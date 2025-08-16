@@ -24,12 +24,14 @@ layout: default
       <p>Estudiante que vive con su grupo familiar y no es el principal aportante</p>
       <p class="number">$359.581,81</p>
     </div>
-
-    <div class="big-card">
-    <i class="fa fa-bus icon" aria-hidden="true"></i>
-    <p>Gastos por viajes al lugar de origen</p>
-    <p><a href="./anexo-viajes.html">Ver detalle</a></p>
   </div>
+
+  <div>
+      <div class="big-card">
+       <i class="fa fa-bus icon" aria-hidden="true"></i>
+        <p>Gastos por viajes al lugar de origen</p>
+        <p><a href="./anexo-viajes.html">Ver detalle</a></p>
+      </div>
   </div>
 
 ## Archivo metodológico

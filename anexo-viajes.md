@@ -2,7 +2,7 @@
 layout: default
 ---
 <a href="./index.html" class="btn-home">
-    <i class="fa fa-home"></i> Volver al inicio
+    <i class=""fa fa-long-arrow-left"></i> Volver al inicio
 </a>
 
 ### JULIO 2025
