@@ -1,3 +1,7 @@
+<a href="./index.html" class="btn-home">
+    <i class="fa fa-long-arrow-left"></i> Volver al inicio
+</a>
+
 # Integrantes del equipo autogestivo de investigación
 
 - Accotto Julián Fernando (Estudiante de la Licenciatura en Sociología, FCS, UNC)

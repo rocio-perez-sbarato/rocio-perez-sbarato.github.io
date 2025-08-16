@@ -248,7 +248,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .card .icon {
@@ -419,14 +419,24 @@ table tr:nth-child(even) td {
   }
 
   .card {
-    height: auto;     /* se ajusta al contenido */
-    padding: 8px;    /* un poco menos de aire */
-    width: 100%; 
+    height: auto;
+    min-height: 140px;
   }
 
   .card .icon {
     font-size: 24px;
     margin-bottom: 6px;
+  }
+
+    .big-card {
+    height: auto;
+    min-height: 140px; /* ajustar según diseño */
+    margin-top: 20px;  /* separa de la card de arriba */
+  }
+
+  .big-card-container {
+    margin-top: 30px; /* separa claramente de las cards de arriba */
+    padding: 0 10px;  /* evita que toque los bordes de la pantalla */
   }
 
   .downloads {
