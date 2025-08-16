@@ -48,8 +48,6 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
   <i class="fa fa-file-o" aria-hidden="true"></i> Más información del proyecto.
 </a>
 
-
-
 ## Radicación del proyecto
 
 Se realiza en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
@@ -68,7 +66,7 @@ Se automatizó por completo la recolección y limpieza de datos para las medicio
 
 ## Equipo
 
-Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
+Somos <a href="./nombres.html">estudiantes</a> de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
 
 * * *
 

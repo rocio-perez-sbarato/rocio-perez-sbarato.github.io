@@ -21,7 +21,12 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>
+          <a href="/nombres.html" class="highlight-link">
+            {{ site.description | default: site.github.project_tagline }}
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
