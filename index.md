@@ -10,29 +10,51 @@ layout: default
     <div class="card">
       <i class="fa fa-shopping-basket icon" aria-hidden="true"></i>
       <p>Estudiante que vive en un departamento alquilado</p>
-      <p class="number">$750k</p>
+      <p class="number">$714.066,18</p>
     </div>
 
     <div class="card">
       <i class="fa fa-shopping-basket icon" aria-hidden="true"></i>
       <p>Estudiante que vive en residencia universitaria</p>
-      <p class="number">$500k</p>
+      <p class="number">$497.623,47</p>
     </div>
 
     <div class="card">
       <i class="fa fa-shopping-basket icon" aria-hidden="true"></i>
       <p>Estudiante que vive con su grupo familiar y no es el principal aportante</p>
-      <p class="number">$350k</p>
+      <p class="number">$359.581,81</p>
     </div>
   </div>
 
+<div class="card">
+  <i class="fa fa-bus" aria-hidden="true"></i>
+  <p>Gastos por viajes al lugar de origen</p>
+  <p class="number"><a href="./anexo-viajes.html">Ver detalle</a></p>
+</div>
+
+## Archivo metodológico
+
+Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgMr8KEQHpm-FODSzhn_QEwHqt/edit?usp=sharing&ouid=104619148099592164311&rtpof=true&sd=true) para conocer qué es y cómo medimos la canasta básica.
+
 ## Proyecto de investigación
 
-Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo medimos la canasta básica.
+Analizamos cómo la condición socioeconómica afecta la permanencia en la facultad. Miramos gastos, perfiles de estudiantes, estrategias de ahorro y costos extra como traslados o gastos no incluidos en la CBTE. 
+
+> La gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica la permanencia y egreso de una carrera.
+
+## Radicación del proyecto
+
+Se realiza en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
+
+## Extracción de datos
+
+Se automatizó por completo la recolección y limpieza de datos para las mediciones mensuales de la canasta básica. Usando web scraping en Python y APIs públicas, logramos extraer y normalizar la precios de manera eficiente para su posterior procesamiento.
+
+[Código de automatización de extracción de precios](https://www.github.com/rocio-perez-sbarato/CBTE)
 
 ## Contacto
 
-¿Querés participar o tenés alguna consulta? Mandanos un mail a **_canasta.basica@gmail.com_**.
+<p>¿Querés participar o tenés alguna consulta? Mandanos un mail a <code>{{ site.email }}</code>.</p>
 
 ## Equipo
 
