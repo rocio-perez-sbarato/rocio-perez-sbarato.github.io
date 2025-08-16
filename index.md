@@ -26,10 +26,12 @@ layout: default
     </div>
   </div>
 
-<div class="card">
-  <i class="fa fa-bus" aria-hidden="true"></i>
-  <p>Gastos por viajes al lugar de origen</p>
-  <p class="number"><a href="./anexo-viajes.html">Ver detalle</a></p>
+<div class="big-card-container">
+  <div class="big-card">
+    <i class="fa fa-bus icon" aria-hidden="true"></i>
+    <p>Gastos por viajes al lugar de origen</p>
+    <p><a href="./anexo-viajes.html">Ver detalle</a></p>
+  </div>
 </div>
 
 ## Archivo metodológico
@@ -40,7 +42,7 @@ Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgM
 
 Analizamos cómo la condición socioeconómica afecta la permanencia en la facultad. Miramos gastos, perfiles de estudiantes, estrategias de ahorro y costos extra como traslados o gastos no incluidos en la CBTE. 
 
-> La gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica la permanencia y egreso de una carrera.
+> En la actualidad, la gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica el estudiar una carrera.
 
 ## Radicación del proyecto
 

@@ -269,12 +269,72 @@ footer {
   font-weight: 700;
 }
 
+.big-card-container {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  margin-top: 20px; /* separa de las otras cards */
+}
+
+.big-card {
+  background-color: $clr-surface-a20;
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%; /* ocupa todo el ancho del contenedor */
+  max-width: 800px; /* opcional: limita el tamaño máximo */
+  height: 120px; /* más baja que las otras */
+  color: $clr-light-a0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra verticalmente el contenido */
+}
+
+.big-card p {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.big-card .number {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.big-card .icon {
+  font-size: 36px; /* un poco más grande que las otras cards */
+  color: $clr-primary-a30;
+  margin-bottom: 8px;
+  align-self: flex-start;
+}
+
 hr {
   border: 0;
   background: $clr-light-a0; 
   height: 1px;
   margin: 0 0 20px;
 }
+
+/* Encabezados de las tablas */
+table th {
+  color: #FFA500; /* naranja */
+  background-color: transparent; /* o algún fondo si querés */
+  font-weight: 600;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Celdas de las filas */
+table td {
+  color: #fff; /* texto blanco */
+  padding: 8px;
+  border-bottom: 1px solid #555;
+}
+
+/* Filas pares para más contraste (opcional) */
+table tr:nth-child(even) td {
+  background-color: #333; /* gris oscuro suave */
+}
+
 
 @media print, screen and (max-width: 960px) {
 
