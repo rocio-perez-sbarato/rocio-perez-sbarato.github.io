@@ -24,15 +24,13 @@ layout: default
       <p>Estudiante que vive con su grupo familiar y no es el principal aportante</p>
       <p class="number">$359.581,81</p>
     </div>
-  </div>
 
-<div class="big-card-container">
-  <div class="big-card">
+    <div class="big-card">
     <i class="fa fa-bus icon" aria-hidden="true"></i>
     <p>Gastos por viajes al lugar de origen</p>
     <p><a href="./anexo-viajes.html">Ver detalle</a></p>
   </div>
-</div>
+  </div>
 
 ## Archivo metodológico
 
@@ -42,7 +40,13 @@ Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgM
 
 Analizamos cómo la condición socioeconómica afecta la permanencia en la facultad. Miramos gastos, perfiles de estudiantes, estrategias de ahorro y costos extra como traslados o gastos no incluidos en la CBTE. 
 
-> En la actualidad, la gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica el estudiar una carrera.
+> "(...) En la actualidad, la gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica el estudiar una carrera. (...)"
+
+<a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
+  <i class="fa fa-file-o" aria-hidden="true"></i> Más información del proyecto.
+</a>
+
+
 
 ## Radicación del proyecto
 
@@ -52,7 +56,9 @@ Se realiza en la UNC con aval del Consejo Directivo de la Facultad de Ciencias S
 
 Se automatizó por completo la recolección y limpieza de datos para las mediciones mensuales de la canasta básica. Usando web scraping en Python y APIs públicas, logramos extraer y normalizar la precios de manera eficiente para su posterior procesamiento.
 
-[Código de automatización de extracción de precios](https://www.github.com/rocio-perez-sbarato/CBTE)
+<a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
+  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la extracción de precios.
+</a>
 
 ## Contacto
 
