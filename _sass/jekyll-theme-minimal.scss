@@ -278,30 +278,25 @@ footer {
 .big-card {
   background-color: $clr-surface-a20;
   border-radius: 10px;
-  padding: 16px;
+  padding: 8px;
   width: 100%; /* ocupa todo el ancho del contenedor */
-  max-width: 800px; /* opcional: limita el tamaño máximo */
-  height: 120px; /* más baja que las otras */
+  height: auto; /* más baja que las otras */
   color: $clr-light-a0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   justify-content: center; /* centra verticalmente el contenido */
+  margin-bottom: 20px;
 }
 
 .big-card p {
-  font-size: 16px;
-  margin: 0;
-  font-weight: 500;
-}
-
-.big-card .number {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 14px;
+  margin: 0 0 5px;
+  font-weight: 400;
 }
 
 .big-card .icon {
-  font-size: 36px; /* un poco más grande que las otras cards */
+  font-size: 28px; 
   color: $clr-primary-a30;
   margin-bottom: 8px;
   align-self: flex-start;
@@ -316,7 +311,7 @@ hr {
 
 /* Encabezados de las tablas */
 table th {
-  color: $clr-primary-a50; /* naranja */
+  color: $clr-primary-a30; /* naranja */
   background-color: transparent; /* o algún fondo si querés */
   font-weight: 600;
   padding: 8px;
@@ -332,9 +327,27 @@ table td {
 
 /* Filas pares para más contraste (opcional) */
 table tr:nth-child(even) td {
-  background-color: $clr-surface-a30; /* gris oscuro suave */
+  background-color: $clr-surface-a10; /* gris oscuro suave */
 }
 
+.btn-home {
+  display: inline-flex; /* para alinear icono y texto */
+  align-items: center;
+  gap: 8px; /* espacio entre icono y texto */
+  padding: 10px 20px;
+  background-color: $clr-surface-a20;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-home:hover {
+  background-color: $clr-surface-a10; /* naranja más oscuro al pasar el mouse */
+  transform: translateY(-2px); /* efecto sutil */
+}
 
 @media print, screen and (max-width: 960px) {
 
