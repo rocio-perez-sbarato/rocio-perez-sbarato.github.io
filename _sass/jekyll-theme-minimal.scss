@@ -316,7 +316,7 @@ hr {
 
 /* Encabezados de las tablas */
 table th {
-  color: #FFA500; /* naranja */
+  color: $clr-primary-a50; /* naranja */
   background-color: transparent; /* o algún fondo si querés */
   font-weight: 600;
   padding: 8px;
@@ -327,12 +327,12 @@ table th {
 table td {
   color: #fff; /* texto blanco */
   padding: 8px;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid $clr-surface-tonal-a20;
 }
 
 /* Filas pares para más contraste (opcional) */
 table tr:nth-child(even) td {
-  background-color: #333; /* gris oscuro suave */
+  background-color: $clr-surface-a30; /* gris oscuro suave */
 }
 
 
