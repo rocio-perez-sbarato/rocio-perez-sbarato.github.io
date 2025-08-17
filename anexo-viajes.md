@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-<a href="./index.html" class="btn-home">
-    <i class="fa fa-long-arrow-left"></i> Volver al inicio
-</a>
 
 ### JULIO 2025
 
@@ -33,3 +30,7 @@ layout: default
 |----------------|-------------|
 | Vuelo a Ushuaia| $124.674,67 |
 | Vuelo a Viedma | $97.571,00  |
+
+<a href="./index.html" class="btn-home">
+    <i class="fa fa-long-arrow-left"></i> Volver al inicio
+</a>
