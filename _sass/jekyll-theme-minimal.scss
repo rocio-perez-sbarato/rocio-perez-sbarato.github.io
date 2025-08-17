@@ -424,17 +424,10 @@ table tr:nth-child(even) td {
     width: 100%;        /* ocupa todo el ancho */
   }
 
-  .cards-container {
+  .big-card-container, .cards-container {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;          /* separación entre cards */
-  }
-
-  .big-card-container {
-    margin-top: 20px;   /* separación clara de las cards de arriba */
-    width: 100%;
-    padding: 0 10px;    /* evita que toque bordes de pantalla */
-    box-sizing: border-box;
   }
 
   .downloads {

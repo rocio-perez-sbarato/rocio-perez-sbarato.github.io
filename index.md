@@ -45,7 +45,7 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
 > "(...) En la actualidad, la gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica el estudiar una carrera. (...)"
 
 <a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-file-o" aria-hidden="true"></i> Más información del proyecto.
+  <i class="fa fa-file-o" aria-hidden="true"></i> Más información del proyecto
 </a>
 
 ## Radicación del proyecto
@@ -57,7 +57,7 @@ Se realiza en la UNC con aval del Consejo Directivo de la Facultad de Ciencias S
 Se automatizó por completo la recolección y limpieza de datos para las mediciones mensuales de la canasta básica. Usando web scraping en Python y APIs públicas, logramos extraer y normalizar la precios de manera eficiente para su posterior procesamiento.
 
 <a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la extracción de precios.
+  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la extracción de precios
 </a>
 
 ## Contacto
