@@ -292,7 +292,6 @@ footer {
 }
 
 .callout a {
-  font-weight: bold;
   color: $clr-primary-a50;
   text-decoration: none;
 }
@@ -419,7 +418,10 @@ table tr:nth-child(even) td {
   .card {
     height: auto;       /* se ajusta al contenido */
     min-height: 140px;  /* altura mínima consistente */
-    width: 100%;
+  }
+
+  .callout {
+    width: 180px;
   }
 
   .downloads {
