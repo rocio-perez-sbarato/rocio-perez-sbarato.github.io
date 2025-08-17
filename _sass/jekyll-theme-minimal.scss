@@ -418,25 +418,22 @@ table tr:nth-child(even) td {
     padding:15px;
   }
 
-  .card {
-    height: auto;
-    min-height: 140px;
-  }
-
-  .card .icon {
-    font-size: 24px;
-    margin-bottom: 6px;
-  }
-
-    .big-card {
-    height: auto;
-    min-height: 140px; /* ajustar según diseño */
-    margin-top: 20px;  /* separa de la card de arriba */
+  .card,
+  .big-card {
+    height: 160px;      /* altura uniforme */
   }
 
   .big-card-container {
-    margin-top: 30px; /* separa claramente de las cards de arriba */
-    padding: 0 10px;  /* evita que toque los bordes de la pantalla */
+    margin-top: 20px;   /* separación clara de las otras cards */
+    width: 100%;
+    padding: 0 10px;    /* evita que toque los bordes de la pantalla */
+    box-sizing: border-box;
+  }
+
+  .cards-container {
+    gap: 10px;          /* separación entre cards */
+    flex-wrap: wrap;     /* que las cards se envuelvan */
+    justify-content: center;
   }
 
   .downloads {
