@@ -26,6 +26,8 @@ layout: default
     </div>
   </div>
 
+## Gastos extra
+
   <div class="callout">
     <i class="fa fa-bus icon"></i>
     <div>
