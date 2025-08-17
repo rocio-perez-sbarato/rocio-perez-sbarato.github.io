@@ -18,6 +18,12 @@ layout: default
 
 Agradecemos especialmente a la docente Susana Morales de la Facultad de Ciencias Sociales y al docente Luis Biedma de la Facultad de Matemática, Astronomía, Física y Computación por su consejo y guía en este proceso.
 
+## Contacto
+
+<p>
+¿Querés participar o tenés alguna consulta? Mandanos un mail a <code>{{ site.email }}</code>.
+</p>
+
 <a href="./index.html" class="btn-home">
     <i class="fa fa-long-arrow-left"></i> Volver al inicio
 </a>

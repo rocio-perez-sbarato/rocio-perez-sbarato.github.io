@@ -19,17 +19,17 @@ layout: default
 | Región       | Costo      |
 |--------------|------------|
 | Región Centro| $39.028,80 |
-| Región NOA   | $43.919,15 |
-| Región NEA   | $71.673,60 |
 | Región Cuyo  | $41.569,33 |
+| Región NOA   | $43.919,15 |
 | Región Sur   | $58.132,67 |
+| Región NEA   | $71.673,60 |
 
 ## Vuelos
 
 | Destino        | Costo       |
 |----------------|-------------|
-| Vuelo a Ushuaia| $124.674,67 |
 | Vuelo a Viedma | $97.571,00  |
+| Vuelo a Ushuaia| $124.674,67 |
 
 <a href="./index.html" class="btn-home">
     <i class="fa fa-long-arrow-left"></i> Volver al inicio

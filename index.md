@@ -40,11 +40,11 @@ layout: default
 
 ## Archivo metodológico
 
-Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgMr8KEQHpm-FODSzhn_QEwHqt/edit?usp=sharing&ouid=104619148099592164311&rtpof=true&sd=true) para conocer qué es y cómo medimos la canasta básica.
+Accedé al <a href="https://docs.google.com/document/d/1GpeygvWgMr8KEQHpm-FODSzhn_QEwHqt/edit?usp=sharing&ouid=104619148099592164311&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">archivo metodológico</a> para conocer qué es y cómo medimos la canasta básica.
 
 ## Recolección de precios
 
-Automatizamos por completo la recolección y limpieza de precios para las mediciones mensuales de la canasta básica. Implementando algoritmos de web scraping en Python y consultando APIs públicas, logramos extraer y normalizar los precios de manera eficiente para su posterior procesamiento.
+Automatizamos gran parte de la recolección y limpieza de precios para las mediciones mensuales de la canasta básica. Implementando algoritmos de web scraping en Python y consultando APIs públicas, logramos extraer y normalizar los precios de manera eficiente para su posterior procesamiento.
 
 <a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
   <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la recolección de precios (v1.0.0)
@@ -62,7 +62,7 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
 
 ## Radicación del proyecto
 
-El proyecto se raidca en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
+El proyecto se radica en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
 
 ## Equipo
 
@@ -74,7 +74,9 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
 
 ## Contacto
 
-<p>¿Querés participar o tenés alguna consulta? Mandanos un mail a <code>{{ site.email }}</code>.</p>
+<p>
+¿Querés participar o tenés alguna consulta? Mandanos un mail a <code>{{ site.email }}</code>.
+</p>
 
 * * *
 <div style="display:flex; gap:10px; align-items:center;">
