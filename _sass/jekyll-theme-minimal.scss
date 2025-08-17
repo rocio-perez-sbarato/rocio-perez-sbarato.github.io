@@ -277,17 +277,23 @@ footer {
   border-left: 4px solid $clr-surface-a0;
   border-radius: 8px;
   padding: 0.75rem 1rem;
-  margin-top: 1rem;
+  margin-bottom: 20px;
 }
 
 .callout i {
-  font-size: 1.3rem;
-  color: $clr-light-a0;
+  font-size: 20px;
+  color: $clr-primary-a30;
+}
+
+.callout p {
+  font-size: 12px;
+  margin: 0 0 5px;
+  font-weight: 300;
 }
 
 .callout a {
   font-weight: bold;
-  color: $clr-light-a0;
+  color: $clr-primary-a50;
   text-decoration: none;
 }
 .callout a:hover {
