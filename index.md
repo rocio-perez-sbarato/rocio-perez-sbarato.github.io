@@ -31,21 +31,23 @@ layout: default
   <div class="callout">
     <i class="fa fa-bus icon"></i>
     <div>
-      <p><strong>Gastos por viajes al lugar de origen</strong></p>
+      <p><strong>Viajes de regreso al lugar de origen</strong></p>
       <p><a href="./anexo-viajes.html">Ver detalle</a></p>
     </div>
   </div>
+
+* * *
 
 ## Archivo metodológico
 
 Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgMr8KEQHpm-FODSzhn_QEwHqt/edit?usp=sharing&ouid=104619148099592164311&rtpof=true&sd=true) para conocer qué es y cómo medimos la canasta básica.
 
-## Extracción de precios
+## Recolección de precios
 
 Automatizamos por completo la recolección y limpieza de precios para las mediciones mensuales de la canasta básica. Implementando algoritmos de web scraping en Python y consultando APIs públicas, logramos extraer y normalizar los precios de manera eficiente para su posterior procesamiento.
 
 <a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la extracción de precios
+  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la recolección de precios
 </a>
 
 ## Proyecto de investigación
@@ -60,13 +62,13 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
 
 ## Radicación del proyecto
 
-Se realiza en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
+El proyecto se raidca en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
 
 ## Equipo
 
 Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
 
-<a href="./nombres.html" target="_blank" rel="noopener noreferrer">
+<a href="./nombres.html">
   <i class="fa fa-users" aria-hidden="true"></i> Integrantes del equipo autogestivo de investigación 
 </a>
 

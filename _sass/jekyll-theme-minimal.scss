@@ -273,8 +273,8 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  background: $clr-surface-a0;
-  border: 2px dashed $clr-surface-a30; /* ✅ borde con rayitas */
+  background: $clr-surface-a10;
+  border: 1px dashed $clr-surface-a30; /* ✅ borde con rayitas */
   border-radius: 8px;
   padding: 0.75rem 1rem;
   margin-bottom: 20px;
@@ -331,10 +331,10 @@ table tr:nth-child(even) td {
   display: inline-flex; /* para alinear icono y texto */
   align-items: center;
   gap: 8px; /* espacio entre icono y texto */
-  padding: 10px 20px;
+  padding: 5px 15px;
   background-color: $clr-surface-a20;
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   border-radius: 8px;
   text-decoration: none;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);

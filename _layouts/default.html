@@ -21,12 +21,10 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>
-          <a href="/nombres.html" class="highlight-link">
-            {{ site.description | default: site.github.project_tagline }}
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-        </p>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <a href="./nombres.html">
+          <i class="fa fa-users" aria-hidden="true"></i> Integrantes del equipo autogestivo de investigación 
+        </a>
 
         {% if site.show_downloads %}
         <ul class="downloads">
