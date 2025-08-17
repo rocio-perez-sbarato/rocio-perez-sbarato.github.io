@@ -248,7 +248,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .card .icon {
@@ -274,8 +274,7 @@ footer {
   align-items: center;
   gap: 0.75rem;
   background: $clr-surface-a0;
-  border-color: $clr-surface-a30;
-  border-left: 4px solid $clr-surface-a30;
+  border: 2px dashed $clr-surface-a30; /* ✅ borde con rayitas */
   border-radius: 8px;
   padding: 0.75rem 1rem;
   margin-bottom: 20px;
