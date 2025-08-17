@@ -47,7 +47,7 @@ Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgM
 Automatizamos por completo la recolección y limpieza de precios para las mediciones mensuales de la canasta básica. Implementando algoritmos de web scraping en Python y consultando APIs públicas, logramos extraer y normalizar los precios de manera eficiente para su posterior procesamiento.
 
 <a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la recolección de precios
+  <i class="fa fa-github" aria-hidden="true"></i> Código abierto para la recolección de precios (v1.0.0)
 </a>
 
 ## Proyecto de investigación
