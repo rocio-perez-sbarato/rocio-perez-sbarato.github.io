@@ -416,9 +416,10 @@ table tr:nth-child(even) td {
     padding:15px;
   }
 
-  .card, .callout{
+  .card {
     height: auto;       /* se ajusta al contenido */
     min-height: 140px;  /* altura mínima consistente */
+    width: 100%;
   }
 
   .downloads {
