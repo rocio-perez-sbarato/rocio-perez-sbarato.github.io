@@ -269,17 +269,28 @@ footer {
   font-weight: 700;
 }
 
-.card-link {
-  background: #f5f9ff; /* un azulito suave */
-  text-align: center;
+.callout {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: $clr-surface-a10;
+  border-left: 4px solid $clr-surface-a0;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
 }
 
-.card-link a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #0077cc;
+.callout i {
+  font-size: 1.3rem;
+  color: $clr-light-a0;
 }
-.card-link a:hover {
+
+.callout a {
+  font-weight: bold;
+  color: $clr-light-a0;
+  text-decoration: none;
+}
+.callout a:hover {
   text-decoration: underline;
 }
 

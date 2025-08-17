@@ -26,19 +26,19 @@ layout: default
     </div>
   </div>
 
-  <div>
-      <div class="card card-link">
-       <i class="fa fa-bus icon" aria-hidden="true"></i>
-        <p>Gastos por viajes al lugar de origen</p>
-        <p><a href="./anexo-viajes.html">Ver detalle</a></p>
-      </div>
+  <div class="callout">
+    <i class="fa fa-bus icon"></i>
+    <div>
+      <p><strong>Gastos por viajes al lugar de origen</strong></p>
+      <p><a href="./anexo-viajes.html">Ver detalle</a></p>
+    </div>
   </div>
 
 ## Archivo metodológico
 
 Accedé al [archivo metodológico](https://docs.google.com/document/d/1GpeygvWgMr8KEQHpm-FODSzhn_QEwHqt/edit?usp=sharing&ouid=104619148099592164311&rtpof=true&sd=true) para conocer qué es y cómo medimos la canasta básica.
 
-#### Extracción de precios
+## Extracción de precios
 
 Automatizamos por completo la recolección y limpieza de precios para las mediciones mensuales de la canasta básica. Implementando algoritmos de web scraping en Python y consultando APIs públicas, logramos extraer y normalizar los precios de manera eficiente para su posterior procesamiento.
 
