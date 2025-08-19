@@ -62,7 +62,7 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
 
 ## Radicación del proyecto
 
-El proyecto se radica en la UNC con aval del Consejo Directivo de la Facultad de Ciencias Sociales.
+El proyecto se radica en la UNC y cuenta con la Declaración de Interés de la Facultad de Ciencias Sociales.
 
 ## Equipo
 
