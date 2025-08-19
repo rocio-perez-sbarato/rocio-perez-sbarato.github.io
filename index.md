@@ -86,5 +86,5 @@ Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu
 </div>
 
 <footer>
-<p><small>Esta humilde página estática fue publicada en GitHub Pages y creada con el theme <a href="github.com/pages-themes/minimal">Jekyll minimal pages</a></small></p>
+<p><small>Esta humilde página estática fue publicada en GitHub Pages y creada con el theme <a href="https://github.com/pages-themes/minimal">Jekyll minimal pages</a></small></p>
 </footer>
