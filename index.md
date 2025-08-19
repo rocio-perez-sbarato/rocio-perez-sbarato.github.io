@@ -56,7 +56,7 @@ Analizamos cómo la condición socioeconómica afecta la permanencia en la facul
 
 > "(...) en la actualidad, la gratuidad universitaria no es suficiente ni incluye todos aquellos costos que implica el estudiar una carrera. (...)"
 
-<a href="https://www.github.com/rocio-perez-sbarato/CBTE" target="_blank" rel="noopener noreferrer">
+<a href="./error.html">
   <i class="fa fa-file-o" aria-hidden="true"></i> Más información del proyecto
 </a>
 
