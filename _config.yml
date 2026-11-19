@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: RPS - Página y blog personal
+description: > # this means to ignore newlines until "baseurl:"
+  Una carta de presentación y una forma de iniciar conversaciones. Creada con jekyll-theme-hackcss
+repository: https://github.com/wemake-services/jekyll-theme-hackcss
+baseurl: /jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+url: https://wemake-services.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: Rocío Perez Sbarato
+email: rocio.perez.sbarato@mi.unc.edu.ar
+navigation:
+  - text: Inicio
+    url: /
+  - text: Contacto
+    url: /contact  
+  - text: CV 
+    url: /cv
+  - text: Bio
+    url: /bio  
+  - text: Fotos
+    url: /pics
+  - text: Portafolio
+    url: /portafolio
+  - text: Publicaciones
+    url: /papers
+  - text: Charlas
+    url: /talks
+  - text: Blog
+    url: /blog
+
+
+projects:
+  - name: Canasta Básica Total Estudiantil
+    description: Scraping de precios (supermercados, servicios, librerias, alquileres y colectivos) para mediciones mensuales de la CBTE.
+    link: https://cbteunc.github.io/
+    image: images/logo_CBTE.jpg
+  - name: Migrantes en la escuela argentina 
+    description: Limpieza, análisis y visualización de "Base de Datos por Escuela" del Ministerio de Capital Humano. 1era mención en Socio-Hackathon "Investigar en Sociales 2024".
+    link: https://github.com/rocio-perez-sbarato/SocioHackaton/
+    image: images/entrega-de-premios-sociohackathon-2.jpg
+  - name: Hypersets Library
+    description: Biblioteca para modelar conjuntos no bien fundados (hypersets) con programación funcional, usada para representar sistemas reflexivos.
+    link: https://github.com/rocio-perez-sbarato/Hypersets-Library
+    image: images/portada_hypersets.png
+  - name: LLMs for Poets
+    description: Notebooks interactivas en Google Colab para que personas sin experiencia técnica hagan fine-tuning y resumen automático de textos con LLMs (Hugging Face, PyTorch), con sus propios datos y sin APIs de terceros.
+    link: https://github.com/rocio-perez-sbarato/LLMs-for-poets
+
+social:
+  - service: github
+    username: rocio-perez-sbarato
+    link: https://github.com/rocio-perez-sbarato
+  - service: linkedin
+    username: rocio-perez-sbarato
+    link: https://www.linkedin.com/in/rocío-perez-sbarato-ba000a211
+
+# Plugins
+gems:
+  - jekyll-seo-tag

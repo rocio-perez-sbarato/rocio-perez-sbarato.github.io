@@ -1,0 +1,62 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$spacing-unit:     10px;
+$image-size:       50px;
+$icon-size:        15px;
+
+
+// Sizes
+$on-palm:          768px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+html {
+  font-size: 120%;   /* probá 110%, 125%, 140% */
+}
+
+.t-hackcss-icon,
+.t-hackcss-icon > svg,
+.t-hackcss-social svg {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.menu-gif {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 20px auto 0;   /* auto a los costados = centrado */
+}
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "styles",
+        "highlight"
+;
+
+
