@@ -11,10 +11,6 @@ permalink: cv
     
 </div>
 
-<object data="{{ site.baseurl }}/docs/Perez_Sbarato__Rocío_CV.pdf" width="600" height="800" type="application/pdf"> 
-
-</object>
-
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
   diameter: 56,

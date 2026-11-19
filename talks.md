@@ -6,18 +6,18 @@ permalink: talks
 
 ## Conferencias
 <pre>
-    Ponente en Coloquio de Filosofía de la Técnica (2026) UNT
+    Coloquio de Filosofía de la Técnica (2026) UNT
     |__ <a href="https://drive.google.com/file/d/1EOSkHpgTSx_O_iMVvh539MM_aKvYGTbR/view?usp=sharing">Slides</a>
-    Pitch en Congreso de Ciencia Política (2024) FCS - UNC
+    Congreso de Ciencia Política (2024) FCS - UNC
     |__ <a href="https://github.com/rocio-perez-sbarato/SocioHackaton/blob/main/docs/presentaci%C3%B3n.pdf">Slides</a>
 </pre>
 
 ## Divulgación de la Ciencia
 <pre>
-    Ponente en MES/2 de la Ciencia (2026) FAMAF - UNC
+    MES/2 2026 (FAMAF - UNC)
     |__ <a href="https://drive.google.com/file/d/15Zli63JG4YW0D-fxWo1DFmEohiZz7V3w/view?usp=sharing">Slides</a>
     |__ <a href="https://drive.google.com/drive/folders/1RlczgxfodYZ0ix1m965hji70ZR84CcuB?usp=sharing">Bibliografía</a>
-    Pitch en Women in Data Science Córdoba (2026)
+    WiDS Córdoba 2026
     |__ <a href="https://docs.google.com/document/d/1X0UpejRwz1s-F9yhz11HGcyhfgpUyPvh6hhw9ZoFvOQ/edit?usp=sharing">Estructura</a>
 </pre>
 
