@@ -4,7 +4,7 @@ permalink: blog
 ---
 
 <div style="text-align: center;">
-  <img style="margin-top: 20px;" src="images/banner-blog-oscuro.png" alt="Texto alternativo" width="440" height="200">
+  <img style="margin-top: 20px;" src="images/banner-blog-oscuro.png" alt="Texto alternativo" width="340" height="150">
 </div>
 
 <section>
