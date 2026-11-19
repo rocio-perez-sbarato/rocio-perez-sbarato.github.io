@@ -29,27 +29,9 @@ $on-palm:          768px;
     }
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-html {
-  font-size: 120%;   /* probá 110%, 125%, 140% */
-}
-
-.t-hackcss-icon,
-.t-hackcss-icon > svg,
-.t-hackcss-social svg {
-  width: 28px !important;
-  height: 28px !important;
-}
-
 .menu-gif {
   display: block;
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
   margin: 20px auto 0;   /* auto a los costados = centrado */
 }
